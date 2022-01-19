@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: squid
-          image: alahiff/squid:latest
+          image: local
           imagePullPolicy: Always
           resources:
             requests:
